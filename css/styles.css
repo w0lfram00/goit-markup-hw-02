@@ -56,8 +56,12 @@ a {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
-.menu a:not(.logo):hover, .menu a:not(.logo):focus {
+.menu a:hover, .menu a:focus {
     color: var(--ocean);
+}
+
+address {
+    font-style: normal;
 }
 
 .address-link a {
@@ -66,8 +70,7 @@ a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--sla    te);
-    font-style: normal;
+    color: var(--slate);
 }
 .address-link a:hover, .address-link a:focus {
     color: var(--ocean);
