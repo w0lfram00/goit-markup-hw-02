@@ -56,17 +56,17 @@ a {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
-.menu a:hover, .menu a:focus {
+.menu a:not(.logo):hover, .menu a:not(.logo):focus {
     color: var(--ocean);
 }
 
-.address-link {
+.address-link a {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: var(--sla    te);
     font-style: normal;
 }
 .address-link a:hover, .address-link a:focus {
@@ -85,7 +85,7 @@ a {
 .logo span {
     color: var(--navy-blue);
 }
-footer span {
+.logo span.studio {
     color: var(--cloud);
 }
 
